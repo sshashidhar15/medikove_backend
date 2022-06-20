@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.use('/login', (req, res) => {
-  const x= []
+  const y= []
   res.send({
     token: 'test123'
   });
